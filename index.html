@@ -1,59 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
   <title>Frontend Mentor | Loopstudios landing page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 0.6875rem; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
-<body>
-  About
-  Careers
-  Events
-  Products
-  Support
 
-  Immersive experiences that deliver
+<body class="alata">
+  <header>
+    <section class="container">
+      <nav class="flx">
+        <img src="./images/logo.svg" alt="">
+        <ul class="flx">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
 
-  The leader in interactive VR
+      </nav>
+      <h1 class="josefin-sans">Immersive experiences that deliver</h1>
+    </section>
+  </header>
+  <main>
+    <section class="container vr flx">
+      <img src="./images/desktop/image-interactive.jpg" alt="">
+      <article>
+        <h2 class="josefin-sans">The leader in interactive VR</h2>
+  
+        <p>
+          Founded in 2011, Loopstudios has been producing world-class virtual reality
+          projects for some of the best companies around the globe. Our award-winning
+          creations have transformed businesses through digital experiences that bind
+          to their brand.
+        </p>
+      </article>
+    </section>
 
-  Founded in 2011, Loopstudios has been producing world-class virtual reality 
-  projects for some of the best companies around the globe. Our award-winning 
-  creations have transformed businesses through digital experiences that bind 
-  to their brand.
+    <section class="container creations">
+      <header class="flx">
+        <h2 class="josefin-sans">Our creations</h2>
 
-  Our creations
+        <a href="#" class="flx">See all</a>
+      </header>
 
-  See all
-
-  Deep earth
-  Night arcade
-  Soccer team VR
-  The grid
-  From up above VR
-  Pocket borealis
-  The curiosity
-  Make it fisheye
-
-  About
-  Careers
-  Events
-  Products
-  Support
-
-  © 2021 Loopstudios. All rights reserved.
-
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+      <div class="flx projects">
+        <a href="#" class="flx josefin-sans">Deep earth</a>
+        <a href="#" class="flx josefin-sans">Night arcade</a>
+        <a href="#" class="flx josefin-sans">Soccer team VR</a>
+        <a href="#" class="flx josefin-sans">The<br>grid</a>
+        <a href="#" class="flx josefin-sans">From up above VR</a>
+        <a href="#" class="flx josefin-sans">Pocket borealis</a>
+        <a href="#" class="flx josefin-sans">The curiosity</a>
+        <a href="#" class="flx josefin-sans">Make it fisheye</a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <section class="container">
+      <div class="flx top">
+        <img src="./images/logo.svg" alt="">
+        <ul class="flx">
+          <li><a href="#"><img src="./images/icon-facebook.svg" alt=""></a></li>
+          <li><a href="#"><img src="./images/icon-instagram.svg" alt=""></a></li>
+          <li><a href="#"><img src="./images/icon-pinterest.svg" alt=""></a></li>
+          <li><a href="#"><img src="./images/icon-twitter.svg" alt=""></a></li>
+        </ul>
+      </div>
+      <div class="flx bottom">
+        <ul class="flx">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+  
+        <p>© 2021 Loopstudios. All rights reserved.</p>
+      </div>
+    </section>
   </footer>
 </body>
+
 </html>
