@@ -207,6 +207,13 @@ main {
                 letter-spacing: 5px;
                 text-transform: uppercase;
                 color: #000000;
+                background-color: #fff;
+                transition: all 1s cubic-bezier(0, 1.25, 0.82, 0.36);
+
+            }
+            a:hover{
+                color: #FFFFFF;
+                background-color: #000;
 
             }
         }
@@ -288,7 +295,9 @@ footer {
                 /* padding-bottom: 43px; */
                 gap: 16px;
             }
-
+            li{
+                position: relative;
+            }
             a {
                 /* position: absolute; */
                 /* height: 25px; */
@@ -299,6 +308,16 @@ footer {
                 display: block;
                 transition: all 1s cubic-bezier(0, 1.25, 0.82, 0.36);
             }
+            a:hover::before {
+                content: '';
+                position: absolute;
+                left: 50%;
+                bottom: 0%;
+                width: 24px;
+                height: 2px;
+                background: currentColor;
+                transform: translateX(-50%);
+            }
         }
 
         div.bottom {
@@ -307,7 +326,29 @@ footer {
             ul {
                 gap: 32px;
             }
-
+            li{
+                position: relative;
+            }
+             a {
+                font-size: 15px;
+                line-height: 25px;
+                /* color: #FFFFFF; */
+                color: currentColor;
+                padding-bottom: 8px;
+                /* border-bottom: 1px solid currentColor; */
+                display: block;
+                transition: all 1s cubic-bezier(0, 1.25, 0.82, 0.36);
+            }
+            a:hover::before {
+                content: '';
+                position: absolute;
+                left: 50%;
+                bottom: 0%;
+                width: 24px;
+                height: 2px;
+                background: currentColor;
+                transform: translateX(-50%);
+            }
             p {
                 opacity: 0.5;
             }
