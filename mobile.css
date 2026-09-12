@@ -1,0 +1,88 @@
+@media(width<768px) {
+    body {
+        /* background-color: red; */
+    }
+
+    body>header {
+        & section {
+            & nav.flx {
+                button {
+                    display: block;
+                    width: 24px;
+                    height: 16px;
+                    border-top: 2px solid #fff;
+                    border-bottom: 2px solid #fff;
+                    position: relative;
+
+                }
+
+                button::before {
+                    content: '';
+                    width: 24px;
+                    height: 2px;
+                    background-color: #fff;
+                    display: block;
+                    position: absolute;
+                    top: 50%;
+                    left: 0;
+                    transform: translateY(-50%);
+                }
+
+                ul {
+                    display: none;
+                    /* gap: 32px; */
+                }
+            }
+            h1{
+                font-size: 40px;
+                padding: 24px;
+                height: 196px;
+                line-height: 38px;
+                
+            }
+        }
+    }
+    main{
+        section.creations{
+            padding-block-end: 170px;
+            position: relative;
+            header{
+                justify-content: center;
+                a{
+                    position: absolute;
+                    left: 50%;
+                    bottom: 96px;
+                    transform: translateX(-50%);
+                }
+            }
+            div.projects {
+                flex-direction: column;
+                a{
+                    width: 327px;
+                    height: 120px;
+                    padding: 20px;
+                    font-size: 24px;
+                    background-size: cover;
+                    background-position: center top -35px;
+                }
+            }
+        }
+    }
+    footer{
+        section{
+            div.top{
+                flex-direction: column;
+                row-gap: 32px;
+                margin-bottom: 48px;
+            }
+            div.bottom{
+                flex-direction: column;
+                row-gap: 16px;
+                ul.flx{
+                    flex-direction: column;
+                    row-gap: 16px;
+                }
+            }
+        }
+    }
+}
