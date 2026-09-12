@@ -15,8 +15,8 @@
 
 ### Посилання
 
-- URL-адреса рішення: [Додайте URL-адресу рішення сюди](https://your-solution-url.com)
-- URL-адреса живого сайту: [Додайте URL-адресу живого сайту сюди](https://your-live-site-url.com)
+- [URL-адреса рішення:](https://github.com/dkonon4uk-max/loopstudios-landing)
+- [URL-адреса живого сайту:](https://dkonon4uk-max.github.io/loopstudios-landing/)
 
 ## Мій процес
 
